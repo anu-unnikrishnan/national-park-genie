@@ -1,0 +1,7 @@
+.content {
+    min-height: calc(70vh - 70px);
+  }
+  .footer {
+    height: 200px;
+    background: url('test-forest-3.png');
+  }
