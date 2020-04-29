@@ -8,6 +8,7 @@ var actMenu = document.getElementById("change_activity");
 var featMenu = document.getElementById("change_feature");
 var accessMenu = document.getElementById("change_access");
 
+//call this function when user clicks inspire me 
 function generateTrail(event) {
 
     let parkDiv = document.getElementById('park')
@@ -90,7 +91,7 @@ function generateTrail(event) {
             diffstring = "hard"
         }
 
-        //see what activities you can do
+        //see what activities you can do and format as required 
         trailactivities = []
         if(trail[i].activities.includes('backpacking')){
             trailactivities.push(' backpacking')
@@ -159,7 +160,7 @@ function generateTrail(event) {
             trailactivities.push(' do paddle sports')
         }
 
-        //see what features the trail has
+        //see what features the trail has and format as required 
         trailfeatures = []
         if(trail[i].features.includes('lake')){
             trailfeatures.push(' lakes')
@@ -195,7 +196,7 @@ function generateTrail(event) {
             trailfeatures.push(' historic sites')
         }
 
-        //see what type of trail this is
+        //see what type of trail this is and format as required 
         trailtype = []
         if(trail[i].features.includes('paved')){
             trailtype.push(' is paved')
