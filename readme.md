@@ -1,5 +1,5 @@
 
-GUIDE TO NATIONAL PARK GENIE.
+Guide to National Park Genie.
 -----------------------------
 
 This repository contains Javascript/HTML/CSS code for National Park Genie, a website which recommends national park hikes that satisfy your desires or constraints.
